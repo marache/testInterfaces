@@ -13,12 +13,14 @@ DEFINES += INTERFACES_LIBRARY
 
 SOURCES += \
     PluginInterface.cpp \
-    SettingsInterface.cpp
+    SettingsInterface.cpp \
+    PerspectivePlugin.cpp
 
 HEADERS += Interfaces.h \
     PluginInterface.h \
     SettingsInterface.h\
-    interfaces_global.h
+    interfaces_global.h \
+    PerspectivePlugin.h
 
 unix {
     target.path = /usr/lib
